@@ -108,7 +108,7 @@ module async_fifo #(
 endmodule
 ```
 ### Testbench
-```
+```systemverilog
 module fifo_tb;
     parameter DATA_WIDTH = 8;
     parameter DEPTH = 8;
